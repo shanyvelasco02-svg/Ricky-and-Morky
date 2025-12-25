@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rick & Morty Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>🧪 Rick & Morty Explorer</h1>
+
+<div class="controls">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search character by name..."
+  />
+
+  <select id="speciesSelect">
+    <option value="">All Species</option>
+    <option value="Human">Human</option>
+    <option value="Alien">Alien</option>
+    <option value="Robot">Robot</option>
+    <option value="Mythological Creature">Mythological Creature</option>
+  </select>
+
+  <button id="charactersBtn">List Characters</button>
+  <button id="episodesBtn">Show Episodes</button>
+</div>
+
+<div id="output" class="grid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
